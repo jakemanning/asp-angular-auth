@@ -9,7 +9,7 @@
     "fullstack",
     "es6"
   ],
-  "author": "Nigel Gilbert",
+  "author": "Jake Manning",
   "license": "MIT",
   "eslintConfig": {
     "env": {
