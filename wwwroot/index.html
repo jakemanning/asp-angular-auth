@@ -1,23 +1,20 @@
-<!doctype html>
-
+﻿<!doctype html>
 <html lang="en">
-  
-<head>
-  <meta charset="utf-8">
-  <title>hello Dotnet</title>
-  <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
-</head>
 
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="app/styles/app.css">
+</head>
 <body>
-  Hello Dotnet!
-  <script src="../node_modules/angular/angular.min.js"></script>
-  <script src="app.js"></script>
-  
-  <div ng-app="App">
-    <div ng-controller="HelloWorldController">
-        <h1>{{greeting}}</h1>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/app-beginning/app-beginning.component.js"></script>
+    <script src="app/app-beginning/app-beginning.controller.js"></script>
+
+    <div ng-app="app">
+        <app-beginning></app-beginning>
     </div>
-  </div>
-  
 </body>
 </html>
