@@ -1,20 +1,20 @@
-﻿(function () {
-    'use strict';
+(function () {
+	'use strict'
 
-    angular
-      .module('appBeginning')
-      .controller('appBeginningController', appBeginningController);
+	angular
+	 .module('appBeginning')
+	 .controller('appBeginningController', appBeginningController)
 
-    appBeginningController.$inject = ['$log'];
-    function appBeginningController($log) {
-        var vm = this;
+	appBeginningController.$inject = ['$log']
+	function appBeginningController ($log) {
+		var vm = this
 
-        vm.title = 'App Beginning';
+		vm.title = 'App Beginning'
 
-        activate();
+		activate()
 
-        function activate() {
-            $log.log("App Beginning");
-        }
-    }
-})();
+		function activate () {
+			$log.log('App Beginning')
+		}
+	}
+})()
